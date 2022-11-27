@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<link rel="stylesheet" href="style2.css">
+
+	<script src="https://kit.fontawesome.com/704ff50790.js"
+		crossorigin="anonymous">
+	</script>
+
+	<script src="index2.js"></script>
+</head>
+<body>
+	<div class="main_box">
+		<input type="checkbox" id="share_button">
+		<label for="share_button">
+			<span class="sharebtn" >
+			<i class="far fa-share-square"></i>
+			</span>
+		</label>
+
+		<div class="sm_list">
+			<a href="#" class="facebook">
+			<i class="fab fa-facebook-f"></i>
+			</a>
+			<a href="#" class="instagram">
+			<i class="fab fa-instagram"></i>
+			</a>
+			<a href="#" class="linkedin">
+			<i class="fab fa-linkedin-in"></i>
+			</a>
+			<a href="#" class="discord">
+			<i class="fab fa-discord"></i>
+			</a>
+			<a href="https://api.whatsapp.com/send?text=https://pratham.co.in" class="whatsapp">
+			<i class="fab fa-whatsapp"></i>
+			</a>
+			<a href="#" class="slack">
+			<i class="fab fa-slack"></i>
+			</a>
+		</div>
+		<div class="share_button copy_button" id="copy_link_container" data-id="text_to_copy">
+			<input type="hidden" id="text_to_copy" class="text_to_copy" value="https://pratham.co.in" readonly="">
+			<div>
+				<i class="fa fa-clone"></i> <h4>Copy link</h4>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
